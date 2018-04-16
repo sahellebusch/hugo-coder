@@ -1,7 +1,8 @@
-@bg-color: #fafafa;
+@bg-color: #FAF9F9; // main background color
 @fg-color: #323232;
-@darker-bg-color: #dcdcdc;
+@darker-bg-color: #555B6E;
 @darker-fg-color: #000;
+@header-footer-color: #78a5b3;
 
 
 *,
@@ -18,7 +19,6 @@ html {
 body {
   display:flex;
   color: @fg-color;
-  background-color: @bg-color;
 	font-family: 'Fira Mono', monospace;
 	font-size: 1.6em;
 	font-weight: 400;
@@ -139,6 +139,7 @@ img {
 }
 
 .navigation {
+  background-color: @header-footer-color;
   height: 6.0rem;
   width: 100%;
   a {
@@ -300,6 +301,7 @@ img {
 }
 
 .footer {
+  background-color: @header-footer-color;
   height: 6.0rem;
   width: 100%;
   text-align: center;
